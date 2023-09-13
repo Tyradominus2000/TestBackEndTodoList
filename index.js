@@ -17,10 +17,10 @@ const port = 8000;
 // identifiants de connexion à la base de données avec l'hôte, l'utilisateur et le mot de passe (root et pas de
 // mot de passe par défaut et du nom de la base de données ciblée)
 const connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "todolist",
+  host: "sql11.freemysqlhosting.net",
+  user: "sql11646087",
+  password: "GQAvrAZnuc",
+  database: "sql11646087",
 });
 
 // connexion à la base de données avec récupération d'une éventuelle erreur et feedback si réussite dans la console
