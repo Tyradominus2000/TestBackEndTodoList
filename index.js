@@ -38,6 +38,10 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get("/", (_, res) => {
+  res.send(JSON.stringify("API WORKING"));
+});
+
 // middleware qui écoute les réquêtes de type GET sur la route localhost:8000/getTodos
 // on prépare notre requête de récupération des todos avec le select en précisant la table
 // on lance la requête, checkons s'il y a une erreur et affichons le résultat en console
